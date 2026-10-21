@@ -16,7 +16,7 @@ HIDE_SELF_TRANSFER = True
 
 # Alert rules
 MIN_DROP_TO_ALERT = 20  # only ping if the cheapest price drops by at least this many dollars
-TARGET_PRICE = None     # set a number like 1100 to get pinged any time a price is at or under it
+TARGET_PRICE = 1500     # set a number like 1100 to get pinged any time a price is at or under it
 
 # Wait between searches (seconds) so Google doesn't block us
 DELAY_RANGE = (3, 7)
