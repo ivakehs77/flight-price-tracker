@@ -1,9 +1,6 @@
 name: Track flight prices
 
 on:
-  schedule:
-    - cron: '0 13 * * *'  # 13:00 UTC (7 AM Texas time)
-    - cron: '0 1 * * *'   # 01:00 UTC (7 PM Texas time)
   workflow_dispatch:
 
 permissions:
